@@ -1,2 +1,1 @@
-# sorteo.osweekends.com
-Sorteo vigente en OSW
+Sorteo de Máster en programación JS de Fictizia — OCSummit17
