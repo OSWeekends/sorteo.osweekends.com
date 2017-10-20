@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'ApercuPro';
+  src:  url('fonts/ApercuPro.woff2') format('woff2'),
+        url('fonts/ApercuPro.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ApercuPro';
+  src:  url('fonts/ApercuPro-Bold.woff2') format('woff2'),
+        url('fonts/ApercuPro-Bold.woff') format('woff');
+    font-weight: bold ;
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,button,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,nav,object,ol,output,p,pre,progress,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;word-wrap:break-word;vertical-align:baseline}article,aside,canvas,details,embed,figcaption,figure,footer,header,iframe,img,main,menu,nav,section,video{display:block}table{border-collapse:collapse;border-spacing:0}table caption,th,thead{text-align:left}code{font-family:monospace}small{font-size:80%}nav li{vertical-align:top;list-style-type:none}sub,sup{font-size:70%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.33em}sup{top:-.66em}button{box-sizing:content-box;background-color:transparent}:not(p) a{text-decoration:none}:not(p) a,button,input[type=button],input[type=submit],nav li{user-select:none}audio,embed,iframe,img,object,video{height:auto;max-width:100%}
+
+html {
+    font-family: ApercuPro, sans-serif ;
+    line-height: 1.5 ;
+    font-size: 100% ;
+    text-rendering: optimizeLegibility ;
+    -ms-text-size-adjust: 100% ;
+    -webkit-text-size-adjust: 100% ;
+    }
+
+
+
+
+
+body {
+    height: 100% ;
+    background-image: linear-gradient( 70deg , #45159a 17% , #006bb8 88% );
+    background-size: 100% 100% ;
+    background-attachment: fixed ;
+    padding: 3% 4%  ;
+    box-sizing: border-box ;
+    color: white ;
+    -webkit-font-smoothing: antialiased ;
+}
+
+#mc_embed_signup {
+    padding: 0 2% ;
+    margin: 0 auto ;
+    max-width: 40em ;
+}
+
+
+label {
+    display: block ;
+    font-size: .8rem ;
+    font-weight: bold ;
+    color: white ;
+    margin-top: 1.2em ;
+    margin-bottom: .2em ;
+    margin-left: .1em ;
+    text-transform: uppercase ;
+    letter-spacing: 3px ;
+}
+
+.clear {
+    width: 100% ;
+    }
+
+input[type=text] , input[type=email] {
+    width: 100% ;
+    height: 3.2rem ;
+    display: block ;
+    margin: 0 ;
+    border: 0 ;
+    //border-top: 3px solid #451F97 ;
+    font-size: 1rem ;
+    padding: 0 2% ;
+    box-sizing: border-box ;
+    transition: all .2s ;
+    font-weight: bold ;
+    will-change: transform ;
+    }
+
+input[type=text]:focus , input[type=email]:focus {
+    transform: scale(1.04);
+    outline: 0 ;
+    box-shadow: 0 6px 12px rgba(0,0,0,.3) ;
+    
+    }
+
+input[type=submit] {
+    display: block ;
+    width: 61.8% ;
+    height: 3em ;
+    font-size: 1.7rem ;
+    border: 0 ;
+    margin: 2em auto 4em ;
+    //padding: 1em 0 ;
+    background-color: #d1f055 ;
+    font-weight: bold ;
+    border-radius: .2em ;
+    letter-spacing: -1px ;
+    cursor: pointer ;
+    font-family: ApercuPro, sans-serif ;
+    will-change: transform ;
+    transition: all .2s ;
+    }
+input[type=submit]:hover , input[type=submit]:focus {
+    transform: scale(1.04);
+    background-color: lawngreen ;
+    
+    box-shadow: 0 6px 12px rgba(0,0,0,.3) ;
+    }
+
+input[type=submit]:focus {
+    outline: 0 ;
+    //outline: 2px dotted rgba(255,255,255,1) ;
+    //outline-offset: .4em;
+    box-shadow: 0 0 0 8px #2E3FA3 , 0 0 0 10px #fff;    
+}
+
+
+p {
+    //text-align: center ;
+    font-size: 1.2rem ;
+    line-height: 1.4 ;
+    margin-bottom: 2em ;
+    margin: 0 auto 2em ;
+    }
+
+h2 {
+    //text-align: center ;
+    font-size: 2.2rem ;
+    line-height: normal ;
+    margin-bottom: .5em ;
+    letter-spacing: -.5px ;
+    }
+
+.logos {
+    padding: 0 2% ;
+    margin: 0 auto 2em ;
+    max-width: 40em ;
+    //width: 50% ;
+    display: flex ;
+    justify-content: space-between ;
+    //background-color: gold ;
+    }
+.logos img {
+    max-width: 40% ;
+    }
+
+.logos img:last-child {
+    margin-top: 2.1em ;
+    }
+
+a {
+    color: #d1f055 ;
+    font-weight: bold ;
+    cursor: pointer ;
+}
+a:hover {
+    color: black ;
+    background-color: #d1f055 ;
+    transition: all .2s ;
+}
+
+
+
+
+
+
+@media all and (max-width: 540px) {
+    html {
+        font-size: 80% ;
+    }
+    
+    input[type=submit] {
+        width: 100% ;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
